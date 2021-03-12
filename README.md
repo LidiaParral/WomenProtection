@@ -9,7 +9,7 @@
 
 *Home* | *Home* |
 ------ | ------ |
-![](img/Home1.jpg) | ![](img/Home2.jpg)
+![](img/Home1.jpg)| ![](img/Home2.jpg)
 
 
  *Blog* | *Blog* |
