@@ -18,4 +18,4 @@
 
 *Profile* | *Help*
 --------- | ------
-![](img/Pofile.jpg) | ![](img/Help.jpg)
+![](img/Profile.jpg) | ![](img/Help.jpg)
