@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">WomenProtection</string>
+    //HELP
+    <string name="tv_help">Esta aplicación va dedicada a ti, a cada una de nosotras que cada vez que sale de trabajar por la noche, o sale de fiesta y teme por volver sola a casa. Además, si se te ves en alguna situación de peligro en tu domicilio o sufres de cualquier tipo de acoso en el trabajo.Por lo contrario, si no es a ti a quien le ocurre esto pero conoce de alguien que sí, pongalo inmediatamente en conocimiento de un profesional.
+        Puedes salvar muchas vidas, no dudes en llamar a algunos de estos números de teléfonos, son números de sin ningún tipo de coste. En el 016, no se queda reflejada la llamada.</string>
+    <string name="tv_h_emergecy">Urgencias(Madrid): </string>
+    <string name="tv_tlf_e">112</string>
+    <string name="tv_h_gv">Violencia de Género(24h):</string>
+    <string name="tv_tlf_gv">016</string>
+    <string name="tv_h_gvm">Violencia de Género:</string>
+    <string name="tv_tlf_gvm">012</string>
+    <string name="tv_web_gv">016-online@igualdad.gob.es.</string>
+    <string name="tv_h_gvmadrid">(Madrid)</string>
+    <string name="tv_h_web">Web</string>
+    <string name="tv_web">Delegación del Gobierno para la Violencia de Género: https://violenciagenero.igualdad.gob.es/</string>
+    <string name="no_activity">No se ha encontrado ninguna aplicación capaz de llevar a cabo la acción solicitada</string>
+
+    //PROFILE
+    <string name="profile_name">María Rodríguez</string>
+    <string name="btn_buscar">Localizar</string>
+    <string name="btn_satelite">Satélite</string>
+    <string name="tv_email">example@gmail.com</string>
+    <string name="tv_tlf">XXX-XX-XX-XX</string>
+    <string name="tv_pss">***********</string>
+    <string name="tv_comments">Show all the comments</string>
+    <string name="btn_actu">Actualizar</string>
+    //PROFILE - MENU CONTEXTUAL
+    <string name="nuevo">Nuevo</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="borrar">Borrar</string>
+    //MAIN
+    <string name="logo_name">Women Protection</string>
+    <string name="tv_search">Search</string>
+    <string name="tv_main1">All featured posts</string>
+    <string name="tv_descrip_main1">Here you can find all the publications most demanded by the users of the app</string>
+    <string name="tv_most_view">Most view</string>
+    <string name="tv_view_all">View All</string>
+    <string name="tv_categories">Categories</string>
+    <string name="tv_manifest">Manifestación</string>
+    <string name="tv_desc_man">Descripción manifestación</string>
+    <string name="tv_title">Title</string>
+    <string name="tv_desc_mv">Description</string>
+    <string name="like">Like</string>
+    <string name="search">Search</string>
+    <string name="setting">Settings</string>
+    <string name="tv_title_help">Llama si estás en peligro</string>
+    <string name="tvAppName">Protection Of Women</string>
+    //LOGIN
+    <string name="tv_user">Username</string>
+    <string name="tv_pass">Password</string>
+    <string name="tv_signin">Sign In</string>
+    <string name="tv_w">Welcome</string>
+    <string name="tv_b">Back</string>
+    //SIGN UP
+    <string name="tv_signup">Sign Up</string>
+    <string name="tv_pass_conf">Confirm Password</string>
+    <string name="tv_fpass">Forgot Password</string>
+    <string name="tv_create">Create</string>
+    <string name="tv_account">Account</string>
+    <string name="floatbtn">\?</string>
+    //DATOS
+    <string name="titulo">TITULO</string>
+    <string name="descrip">Descripcion</string>
+    <string name="web_image">Web</string>
+    <string name="question">Question</string>
+    <string name="profile">Datos del perfil</string>
+
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    tools:context=".Initiation.SignUpActivity">
+
+
+    <ImageView
+        android:id="@+id/logoLogin"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin"
+        android:alpha="0.5"
+        android:src="@drawable/girlpower" />
+
+
+    <TextView
+        android:id="@+id/tvCreate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoLogin"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/actor"
+        android:paddingRight="48dp"
+        android:text="@string/tv_create"
+        android:textAlignment="textEnd"
+        android:textColor="@color/purple_500"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/tvAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCreate"
+        android:fontFamily="@font/actor"
+        android:paddingRight="48dp"
+        android:text="@string/tv_account"
+        android:textAlignment="textEnd"
+        android:textColor="@color/purple_500"
+        android:textSize="32sp" />
+
+    <!--Añadir imagenes al lado del EditText-->
+
+    <LinearLayout
+        android:id="@+id/llUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margin">
+
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_user"
+            android:textColor="@color/black" />
+
+
+        <EditText
+            android:id="@+id/etUser"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llUser"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margin">
+
+
+        <TextView
+            android:id="@+id/tvPass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_pass"
+            android:textColor="@color/black" />
+
+
+        <EditText
+            android:id="@+id/etPss"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etUser"
+            android:layout_centerInParent="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPassConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llPass"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margin">
+
+
+        <TextView
+            android:id="@+id/tvPassConf"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_pass_conf"
+            android:textColor="@color/black" />
+
+
+        <EditText
+            android:id="@+id/etPssConf"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etUser"
+            android:layout_centerInParent="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/llPassConf"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin"
+        android:weightSum="4">
+
+
+        <TextView
+            android:id="@+id/tvSignIn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_weight="3"
+            android:text="@string/tv_signup"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnSignIn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/next"
+            android:onClick="sign_up"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

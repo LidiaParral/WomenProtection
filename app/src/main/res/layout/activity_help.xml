@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BottomNav.HelpActivity">
+
+
+    <!--Colocar TextView indicando con quien puede contactar si tiene problemas-->
+    <TextView
+        android:id="@+id/tvHelpT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/tv_title_help"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHelpT"
+        android:padding="@dimen/margin"
+        android:text="@string/tv_help"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+
+    <LinearLayout
+        android:id="@+id/llTlfEmergency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_below="@id/tvHelp"
+        android:weightSum="4">
+
+        <!--Añadir estilos de los TextView-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/tv_h_emergecy" />
+        <!--Añadir estilos de los Button-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:onClick="tlfEmergency"
+            android:text="@string/tv_tlf_e" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTlfGV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llTlfEmergency"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin"
+        android:weightSum="4">
+
+        <!--Añadir estilos de los TextView-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_h_gv" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:onClick="abrirWeb"
+                android:text="@string/tv_web_gv"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:onClick="tlfVG"
+            android:text="@string/tv_tlf_gv" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTlfGVM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llTlfGV"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <!--Añadir estilos de los TextView-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/tv_h_gvm" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:text="@string/tv_h_gvmadrid"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:onClick="tlfMadrid"
+            android:text="@string/tv_tlf_gvm" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llTlfGVM"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="4">
+
+        <!--Añadir estilos de los TextView-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tv_web"
+            android:textAlignment="center"/>
+        <!--Añadir estilos de los Button-->
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginTop="@dimen/margin"
+            android:onClick="abrirWeb"
+            android:text="@string/tv_h_web" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_navigation" />
+
+
+</RelativeLayout>

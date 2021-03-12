@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Like"
+        android:icon="@drawable/ic_like"
+        app:showAsAction="always"
+        android:title="@string/like" />
+
+    <item
+        android:id="@+id/Search"
+        android:icon="@drawable/ic_search_w"
+        app:showAsAction="always"
+        android:title="@string/search"/>
+
+    <item
+        android:id="@+id/Setting"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="collapseActionView"
+        android:title="@string/setting"/>
+
+
+</menu>
