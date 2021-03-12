@@ -5,11 +5,17 @@
  
 *Splash* | *Login* | *Sign Up* |
   ----- |----- | ------ |
-![](img/Splash.jpg) | ![](img/Login.jpg) | 
+![](img/Splash.jpg) | ![](img/Login.jpg) | ![](img/SignUp.jpg)
+
+*Home* | *Home* |
+------ | ------ |
+![](img/Home1.jpg) | ![](img/Home2.jpg)
 
 
- *Blog* | *Profile* | *Help*
- ------ | ------ | ------
+ *Blog* | *Blog* |
+ ------ | ------ | 
+![](img/Blog.jpg) | ![](img/Blog2.jpg)
 
-
-
+*Profile* | *Help*
+--------- | ------
+![](img/Pofile.jpg) | ![](img/Help.jpg)
