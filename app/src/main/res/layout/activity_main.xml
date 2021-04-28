@@ -228,17 +228,6 @@
 
     </LinearLayout>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="80dp"
-        android:src="@drawable/help"
-        android:backgroundTint="@color/purple_500"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="@dimen/margin"
-        android:onClick="floatbtn"
-        android:contentDescription="@string/question" />
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -248,5 +237,18 @@
         android:layout_alignParentBottom="true"
         app:menu="@menu/menu_navigation" />
 
+    //Añadir sonido de alarma
+    <ImageButton
+        android:id="@+id/btnAlert"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/advertencia"
+        android:onClick="botonAlerta"/>
+
 
 </RelativeLayout>
+

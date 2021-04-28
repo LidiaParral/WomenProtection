@@ -65,5 +65,6 @@
     <string name="question">Question</string>
     <string name="profile">Datos del perfil</string>
     <string name="title_activity_maps2">Map</string>
+    <string name="alerta">Alerta</string>
 
 </resources>

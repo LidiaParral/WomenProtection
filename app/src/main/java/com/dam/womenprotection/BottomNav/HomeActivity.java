@@ -34,6 +34,7 @@ public class HomeActivity extends AppCompatActivity {
     RecyclerView rvMostView;
     RecyclerView rvCateg;
     RecyclerView.Adapter adapter;
+    Button btnAlert;
 
     RelativeLayout rl;
     ImageButton btnArrow;
@@ -48,6 +49,7 @@ public class HomeActivity extends AppCompatActivity {
         rvFeatured = findViewById(R.id.featured_rv);
         rvMostView = findViewById(R.id.rvMostView);
         rvCateg = findViewById(R.id.rvCategories);
+
 
 
         rvFeatured();
@@ -147,10 +149,11 @@ public class HomeActivity extends AppCompatActivity {
 
     }
 
-    public void floatbtn(View view) {
-        Intent i = new Intent(this, HelpActivity.class);
-        startActivity(i);
-    }
+    /*
+    public void botonAlerta(View view) {
+        TERMINAR : añadir sonido de alarma al pulsar el botón
+
+    }*/
 
     private class ButtonOnClickListener implements View.OnClickListener {
         @Override
