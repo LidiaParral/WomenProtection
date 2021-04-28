@@ -1,58 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<RelativeLayout
     android:layout_height="match_parent"
-    tools:context=".BottomNav.MapsActivity">
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-
-    <!--Añadir librerias de los mapas, implementar el mapa en ubicacion a tiempo real-->
     <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        tools:context=".BottomNav.MapsActivity" />
+        android:layout_width="416dp"
+        android:layout_height="670dp"
+        tools:context=".BottomNav.MapsActivity"/>
 
-    <Button
-        android:id="@+id/btnSatelite"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/purple_200"
-        android:text="@string/btn_satelite"/>
-
-    <LinearLayout
-        android:id="@+id/llBusqueda"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:background="@color/white">
-
-
-        <Button
-            android:id="@+id/btnBuscar"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
-            android:backgroundTint="@color/purple_500"
-            android:text="@string/btn_buscar"
-            android:onClick="buscar"/>
-
-
-
-    </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-    android:id="@+id/bottom_navigation"
-    android:layout_alignParentBottom="true"
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    app:menu="@menu/menu_navigation" />
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_navigation"/>
+
+
 
 </RelativeLayout>
+
+
+
+
+
+
+

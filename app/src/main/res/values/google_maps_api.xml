@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="google_maps_key" templateMergeStrategy = "perserve"  translatable="false" tools:ignore="ExtraTranslation">AIzaSyD7woCddJDMvjYqUjcUNn5RpJaPdR1KqlI</string>
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=FB:08:2C:4D:30:99:B3:42:18:FB:4E:36:B2:C8:F9:D7:D9:90:24:C3%3Bcom.dam.womenprotection
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.dam.womenprotection
+
+    SHA-1 certificate fingerprint:
+    FB:08:2C:4D:30:99:B3:42:18:FB:4E:36:B2:C8:F9:D7:D9:90:24:C3
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBP8oDHUHi4QUP32Gg85ERb_1asZzfRt7c</string>
 </resources>

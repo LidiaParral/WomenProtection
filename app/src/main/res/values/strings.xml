@@ -64,5 +64,6 @@
     <string name="web_image">Web</string>
     <string name="question">Question</string>
     <string name="profile">Datos del perfil</string>
+    <string name="title_activity_maps2">Map</string>
 
 </resources>
