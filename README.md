@@ -5,7 +5,7 @@
  
 *Splash* | *Login* | *Sign Up* |
   ----- |----- | ------ |
-![](img/Splash.jpg) | ![](img/Login.jpg) | ![](img/SignUp.jpg)
+![](img/Splash.jpg) | ![](img/Login2.jpg) | ![](img/SignUp.jpg)
 
 *Home* | *Home* |
 ------ | ------ |
